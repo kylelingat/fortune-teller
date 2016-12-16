@@ -1,0 +1,19 @@
+#fortune-cookie-text {
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+  position: relative;
+  left: 600px
+}
+
+#previous-fortunes {
+  background-color: orange;
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  position: relative;
+  left: 200px;
+  list-style: none;
+}
+
