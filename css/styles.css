@@ -1,5 +1,7 @@
 header {
   position: absolute;
+  color: white;
+  background-color: black;
   top: 0px;
   left: 38%;
   font-size: 30px;
