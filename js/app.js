@@ -19,7 +19,6 @@ function generateFortuneCookie () {
 
 
 function generateKermit () {
-	alert("NO GOING BACK");
 	document.body.style.backgroundImage = "url('http://i0.kym-cdn.com/entries/icons/original/000/021/668/kermie.JPG')";
 	var kermitList = ['die', 'skip school', 'kick that ice under the fridge', 'late to class, might as well not even go school','spend all ur money', 'always overreact', 'make a scene']
 	var random = kermitList[Math.floor(Math.random() * kermitList.length)];
