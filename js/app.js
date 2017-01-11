@@ -23,6 +23,7 @@ function generateKermit () {
 	var kermitList = ['die', 'skip school', 'kick that ice under the fridge', 'late to class, might as well not even go school','spend all ur money', 'always overreact', 'make a scene']
 	var random = kermitList[Math.floor(Math.random() * kermitList.length)];
 	document.getElementById('text').style.backgroundColor = 'white';
+	document.getElementById('someting').style.backgroundColor = 'white';
 	document.getElementById('text').style.color = 'green';
 	document.getElementById('text').textContent = random;
 	console.log('User ' + random)
