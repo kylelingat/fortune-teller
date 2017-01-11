@@ -1,6 +1,5 @@
 console.log('connected');
 
-var called;
 
 function generateFortuneCookie () {
 	var fortunesList = ['A beautiful, smart, and loving person will be coming into your life.','A dubious friend may be an enemy in camouflage.','A feather in the hand is better than a bird in the air.','The early bird gets the worm, but the second mouse gets the cheese.', 'Your road to glory will be rocky, but fulfilling.', 'Dont worry about money. The best things in life are free.', 'Dont pursue happiness, create it.', 'Courage is not the absence of fear; it is the conquest of it.', 'Nothing is so much to be feared as fear.'];
@@ -12,15 +11,7 @@ function generateFortuneCookie () {
 	var list = document.getElementById('someting');
 	var node = document.createElement("div");
 	node.innerHTML = random
-	list.appendChild(node);
-	if (called === true) {
-		document.body.style.backgroundImage = "none";
-		document.getElementById('text').style.backgroundColor = 'none';
-		document.getElementById('someting').style.backgroundColor = 'none';
-		document.getElementById('text').style.color = 'none';
-		console.log('reset')
-	}
-		
+	list.appendChild(node);		
 }
 function generateKermit () {
 	document.body.style.backgroundImage = "url('https://i0.kym-cdn.com/entries/icons/original/000/021/668/kermie.JPG')";
@@ -36,6 +27,4 @@ function generateKermit () {
 	node.innerHTML = random
 	node.style.color = 'green';
 	list.appendChild(node);
-	var called = true;
-	console.log(called)
 }
