@@ -8,22 +8,11 @@ function generateFortuneCookie () {
 	document.getElementById('text').textContent = random;
 	/* randomizer set to random variable, change textContent of fortune-cookie-text to the random variable value */
 	console.log(random)
-	
-	/*previous fortunes part */
-	var list = document.getElementById('previousFortune');
+	var list = document.getElementById('someting');
 	var node = document.createElement("div");
 	node.innerHTML = random
 	list.appendChild(node);		
 }
-
-
-
-
-
-
-
-
-
 function generateKermit () {
 	document.body.style.backgroundImage = "url('https://i0.kym-cdn.com/entries/icons/original/000/021/668/kermie.JPG')";
 	var kermitList = ['die', 'skip school', 'kick that ice under the fridge', 'late to class, might as well not even go school','spend all ur money', 'always overreact', 'make a scene']
@@ -33,7 +22,7 @@ function generateKermit () {
 	document.getElementById('text').style.color = 'green';
 	document.getElementById('text').textContent = random;
 	console.log('User ' + random);
-	var list = document.getElementById('previousFortune');
+	var list = document.getElementById('someting');
 	var node = document.createElement("div");
 	node.innerHTML = random
 	node.style.color = 'green';
