@@ -8,6 +8,8 @@ function generateFortuneCookie () {
 	document.getElementById('text').textContent = random;
 	/* randomizer set to random variable, change textContent of fortune-cookie-text to the random variable value */
 	console.log(random)
+	
+	/*previous fortunes part */
 	var list = document.getElementById('previousFortune');
 	var node = document.createElement("div");
 	node.innerHTML = random
